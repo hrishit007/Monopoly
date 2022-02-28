@@ -1,3 +1,102 @@
 body{
-    background-image: url(./assets/Start_Background.jpg);
+    height: 100%;
+    background-color: blue;
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    height: 100%;
+}
+.gameArea{
+    display: flex;
+    flex-direction: row;
+    margin:0%;
+
+}
+
+
+.column_left{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: blueviolet;
+    border: 1px solid black;
+    width:9.09%;
+}
+.column_left>div{
+    height: 50px;
+    width:100%;
+    border: 1px solid black;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    background-color:yellow;
+    width:81.81%;
+}
+#UpperMiddleArea{
+    height:50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+#UpperMiddleArea>div{
+    width:11.11%;
+    border:1px solid black;
+    height:100%;
+}
+#game_image{
+    height:521px;
+}
+#LowerMiddleArea{
+    height:50px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#LowerMiddleArea>div{
+    width:11.11%;
+    border:1px solid black;
+    height:100%;
+}
+
+.column_right{
+    display: flex;
+    flex-direction: column;
+    background-color: greenyellow;
+    border: 1px solid black;
+    width:9.09%;
+}
+.column_right>div{
+    height: 50px;
+    width:100%;
+    border: 1px solid black;
+}
+#GameFooter{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: space-around;
+}
+#Player_Money{
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+    width:85%;
+}
+#Player_Money>div{
+    width:25%;
+    border:1px solid black;
+
+}
+#dice_area{
+    display: flex;
+    flex-direction: row;
+    width:15%;
+    background-color: chocolate;
+}
+#dice_area>div{
+    width:50%;
 }
