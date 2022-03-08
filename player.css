@@ -1,0 +1,28 @@
+.player1_icon{
+    border-radius: 50%;
+    display: inline-block;
+    height:20px;
+    width:20px;
+    background-color: yellow;
+}
+.player2_icon{
+    border-radius: 50%;
+    display: inline-block;
+    height:20px;
+    width:20px;
+    background-color: blue;
+}
+.player3_icon{
+    border-radius: 50%;
+    display: inline-block;
+    height:20px;
+    width:20px;
+    background-color: red;
+}
+.player4_icon{
+    border-radius: 50%;
+    display: inline-block;
+    height:20px;
+    width:20px;
+    background-color: green;
+}
