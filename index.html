@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./game.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-    $(function(){
-        $('.player_icons'),load('player.html');
-    });      
-        </script>
+        $(function () {
+            $('.player_icons'), load('player.html');
+        });      
+    </script> -->
     <title>Monopoly</title>
 </head>
 
@@ -25,70 +25,405 @@
     <div class="gameArea" style="display: none;">
         <div class="column_left">
             <div id="Start">
-                <div class="player_icons"></div>
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
             </div>
-            <div id="box_1">1</div>
-            <div id="box_2">2</div>
-            <div id="box_3">3</div>
-            <div id="box_4">4</div>
-            <div id="box_5">5</div>
-            <div id="box_6">6</div>
-            <div id="box_7">7</div>
-            <div id="box_8">8</div>
-            <div id="box_9">9</div>
-            <div id="box_10">10</div>
-            <div id="box_11">11</div>
+            <div id="box_1">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_2">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_3">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_4">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_5">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_6">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_7">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_8">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_9">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_10">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_11">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
         </div>
         <div class="middle">
             <div id="UpperMiddleArea">
-                <div id="box_12">12</div>
-                <div id="box_13">13</div>
-                <div id="box_14">14</div>
-                <div id="box_15">15</div>
-                <div id="box_16">16</div>
-                <div id="box_17">17</div>
-                <div id="box_18">18</div>
-                <div id="box_19">19</div>
-                <div id="box_20">20</div>
+                <div id="box_12">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_13">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_14">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_15">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_16">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_17">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_18">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_19">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_20">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
             </div>
             <div id="game_image">
                 <!-- Image will be inserted -->
             </div>
             <div id="LowerMiddleArea">
-                <div id="box_33">33</div>
-                <div id="box_34">34</div>
-                <div id="box_35">35</div>
-                <div id="box_36">36</div>
-                <div id="box_37">37</div>
-                <div id="box_38">38</div>
-                <div id="box_39">39</div>
-                <div id="box_40">40</div>
-                <div id="box_41">41</div>
+                <div id="box_33">
+                    33
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_34">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_35">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_36">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_37">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_38">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_39">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_40">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
+                <div id="box_41">
+                    <!-- <div class="player_icons"></div> -->
+                    <div class="player_icon">
+                        <span class="player1_icon">4</span>
+                        <span class="player2_icon">4</span>
+                        <span class="player3_icon">4</span>
+                        <span class="player4_icon">4</span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="column_right">
-            <div id="box_21">21</div>
-            <div id="box_22">22</div>
-            <div id="box_23">23</div>
-            <div id="box_24">24</div>
-            <div id="box_25">25</div>
-            <div id="box_26">26</div>
-            <div id="box_27">27</div>
-            <div id="box_28">28</div>
-            <div id="box_29">29</div>
-            <div id="box_30">30</div>
-            <div id="box_31">31</div>
-            <div id="box_32">32</div>
+            <div id="box_21">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_22">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_23">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_24">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_25">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_26">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_27">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_28">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_29">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_30">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_31">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
+            <div id="box_32">
+                <!-- <div class="player_icons"></div> -->
+                <div class="player_icon">
+                    <span class="player1_icon">4</span>
+                    <span class="player2_icon">4</span>
+                    <span class="player3_icon">4</span>
+                    <span class="player4_icon">4</span>
+                </div>
+            </div>
         </div>
     </div>
     <div id="GameFooter" style="display: none;">
         <!-- Dice and player money to be displayed here -->
         <div id="Player_Money">
             <!-- Display as inline grid or block here -->
-            <div class="PlayMon">Player 1: <b class="Player1_Money"></b></div>
-            <div class="PlayMon">Player 2: <b class="Player2_Money"></b></div>
-            <div class="PlayMon">Player 3: <b class="Player3_Money"></b></div>
-            <div class="PlayMon">Player 4: <b class="Player4_Money"></b></div>
+            <div class="PlayMon">Player 1: <b id="Player1_Money"></b></div>
+            <div class="PlayMon">Player 2: <b id="Player2_Money"></b></div>
+            <div class="PlayMon">Player 3: <b id="Player3_Money"></b></div>
+            <div class="PlayMon">Player 4: <b id="Player4_Money"></b></div>
         </div>
         <div id="dice_area">
             <div id="dice_display">

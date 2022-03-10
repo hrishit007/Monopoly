@@ -1,31 +1,42 @@
+/* Add fade in to player icons
+If player icon moves from box 1 to box 4 then make icon blink on boxes 2 and 3 too */
+
 body{
     height: 100%;
     background-color: blue;
 }
+.player_icon{
+    display: flex;
+    justify-content: space-around;
+}
 .player1_icon{
+    text-align: center;
+    display:none;
     border-radius: 50%;
-    display: inline-block;
     height:20px;
     width:20px;
     background-color: yellow;
 }
 .player2_icon{
+    text-align: center;
+    display:none;
     border-radius: 50%;
-    display: inline-block;
     height:20px;
     width:20px;
     background-color: blue;
 }
 .player3_icon{
+    text-align: center;
+    display:none;
     border-radius: 50%;
-    display: inline-block;
     height:20px;
     width:20px;
     background-color: red;
 }
 .player4_icon{
+    text-align: center;
+    display:none;
     border-radius: 50%;
-    display: inline-block;
     height:20px;
     width:20px;
     background-color: green;
@@ -61,7 +72,7 @@ body{
 .middle{
     display: flex;
     flex-direction: column;
-    background-color:yellow;
+    background-color:orange;
     width:81.81%;
 }
 #UpperMiddleArea{
