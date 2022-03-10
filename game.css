@@ -1,6 +1,7 @@
 /* Add fade in to player icons
 If player icon moves from box 1 to box 4 then make icon blink on boxes 2 and 3 too */
 
+/* Add a checkbox on start page so that players can choose their names */
 body{
     height: 100%;
     background-color: blue;
@@ -55,11 +56,109 @@ body{
 
 }
 
+#overlay{
+    position: absolute;
+    display:none;
+    width:100%;
+    height: 100%;
+    background-color: aqua;
+    opacity: 0.9;
+}
+#place_not_bought{
+    position:absolute;
+    width:20%;
+    height:60%;
+    align-self: center;
+    left:40%;
+}
+#buy_skip{
+    display: flex;
+    justify-content: space-around;
+}
+#place_bought{
+    position:absolute;
+    width:20%;
+    height:60%;
+    align-self: center;
+    left: 40%;
+}
+#comm_chest{
+    position:absolute;
+    width:40%;
+    height:60%;
+    align-self: center;
+    left: 30%;
+}
+#dice_comm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chance{
+    position:absolute;
+    width:40%;
+    height:60%;
+    align-self: center;
+    left: 30%;
+}
+#dice_chance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#itax{
+    position:absolute;
+    width:20%;
+    height:60%;
+    align-self: center;
+    left: 40%;
+}
+#ok_itax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#jail{
+    position:absolute;
+    width:20%;
+    height:60%;
+    align-self: center;
+    left: 40%;
+}
+#ok_jail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#club{
+    position:absolute;
+    width:20%;
+    height:60%;
+    align-self: center;
+    left: 40%;
+}
+#ok_club{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rest{
+    position:absolute;
+    width:20%;
+    height:60%;
+    align-self: center;
+    left: 40%;
+}
+#ok_rest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .column_left{
     display: flex;
     flex-direction: column-reverse;
-    background-color: blueviolet;
+    background-color: orange;
     border: 1px solid black;
     width:9.09%;
 }
@@ -67,6 +166,7 @@ body{
     height: 50px;
     width:100%;
     border: 1px solid black;
+    border-radius: 5%;
 }
 
 .middle{
@@ -78,12 +178,14 @@ body{
 #UpperMiddleArea{
     height:50px;
     border: 1px solid black;
+    border-radius: 5%;
     display: flex;
     flex-direction: row;
 }
 #UpperMiddleArea>div{
     width:11.11%;
     border:1px solid black;
+    border-radius: 5%;
     height:100%;
 }
 #game_image{
@@ -92,19 +194,21 @@ body{
 #LowerMiddleArea{
     height:50px;
     border: 1px solid black;
+    border-radius: 5%;
     display: flex;
     flex-direction: row-reverse;
 }
 #LowerMiddleArea>div{
     width:11.11%;
     border:1px solid black;
+    border-radius: 5%;
     height:100%;
 }
 
 .column_right{
     display: flex;
     flex-direction: column;
-    background-color: greenyellow;
+    background-color: orange;
     border: 1px solid black;
     width:9.09%;
 }
@@ -112,11 +216,14 @@ body{
     height: 50px;
     width:100%;
     border: 1px solid black;
+    border-radius: 5%;
+    background-color: orange;
+    
 }
 #GameFooter{
     display: flex;
     flex-direction: row;
-    background-color: red;
+    background-color: aqua;
     justify-content: space-around;
 }
 #Player_Money{
