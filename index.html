@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./game.css">
+    <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/games');
+    </style>
+    <link href="http://fonts.cdnfonts.com/css/quantum" rel="stylesheet">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/quantum');
+</style>
+
+
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(function () {
@@ -17,7 +27,7 @@
 
 <body>
     <div id="heading">
-        <div id="mono">Monopoly</div>
+        <div id="mono">Monopoly<br></div>
         <div id="play_button">
             <button id="start">Click here</button>
         </div>
@@ -37,7 +47,7 @@
                 <button id="skip">SKIP</button>
             </div>
             <div>
-                <p>Your money=<b id="player_money_display">MONEY TO BE DISPLAYED</b></p>
+                <p>Your money=<b><span>&#8377;</span></b><b id="player_money_display">MONEY TO BE DISPLAYED</b></p>
             </div>
         </div>
         <div id="place_bought" style="display: none;">
@@ -74,6 +84,10 @@
             <div id="dice_chance">
                 <button id="dice_roll_chance">Roll Dice</button>
             </div>
+        </div>
+        <div id="display_dice_value" style="display: none;">
+            <div>Dice shows <b id="dice_value_chance_comm"></b></div>
+            <div id="chance_comm_button"><button id="ok_chance_comm">OK</button></div>
         </div>
         <div id="itax" style="display: none;">
             <div>Income tax of <span>&#8377;</span>5000 to be paid</div>
@@ -502,7 +516,7 @@
                 <!-- Display Dice here -->
             </div>
             <div id="Dice_Button">
-                <button id="Dice_Roll">Roll Dice</button>
+                <button id="Dice_Roll">Roll<br> Dice</button>
             </div>
         </div>
     </div>

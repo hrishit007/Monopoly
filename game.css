@@ -4,7 +4,27 @@ If player icon moves from box 1 to box 4 then make icon blink on boxes 2 and 3 t
 /* Add a checkbox on start page so that players can choose their names */
 body{
     height: 100%;
-    background-color: blue;
+    background-color: rgb(255, 94, 0);
+    font-family: 'Games', sans-serif;
+    font-size: large;                                        
+}
+button{
+    background-color: goldenrod;
+    text-decoration: solid;
+    font-family: 'Games', sans-serif;
+    font-size: large;
+}
+button:hover{
+    background-color: lawngreen;
+}
+#skip{
+    background-color: red;
+    text-decoration: solid;
+    font-family: 'Games', sans-serif;
+    font-size: large;
+}
+#skip:hover{
+    background-color: darkred;
 }
 .player_icon{
     display: flex;
@@ -43,11 +63,16 @@ body{
     background-color: green;
 }
 #heading{
+    font-family: 'Quantum Flat (BRK)', sans-serif;
+    font-size:xx-large;
+    position: absolute;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: larger;
     height: 100%;
+    width: 100%;
 }
 .gameArea{
     display: flex;
@@ -105,6 +130,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#display_dice_value{
+    position: absolute;
+    width:20%;
+    height:10%;
+    align-self:center;
+    left:40%;
+}
+#chance_comm_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #itax{
     position:absolute;
@@ -240,9 +277,14 @@ body{
 #dice_area{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     width:15%;
     background-color: chocolate;
 }
 #dice_area>div{
     width:50%;
+}
+#dice{
+    text-align: center;
+
 }
